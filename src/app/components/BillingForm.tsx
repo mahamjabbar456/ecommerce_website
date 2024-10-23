@@ -107,7 +107,7 @@ const BillingForm = () => {
                 </div>
                 </div>
                 <div className="flex justify-between mb-4 md:w-[100%]">
-                    <button className="border-2 py-3 pr-[70px] md:pr-[45px] lg:pr-[40%] pl-3 rounded-md lg:mr-2">Coupon Code</button>
+                    <button className="border-2 py-3 pr-[45px] lg:pr-[40%] pl-3 rounded-md lg:mr-2">Coupon Code</button>
                     <button className="bg-red-600 px-3 text-white rounded-md py-3">Apply Coupon</button>
                 </div>
                 <button className="bg-red-600 px-7 text-white rounded-md py-3">Place Order</button>

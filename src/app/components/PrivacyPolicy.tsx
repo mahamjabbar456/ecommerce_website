@@ -6,7 +6,7 @@ import Money from '../../../public/moneyback.svg';
 const PrivacyPolicy = () => {
     return (
         <div className="mx-auto w-[75%] md:my-[100px] my-[50px]">
-            <div className="flex md:justify-center md:gap-20 gap-10 flex-wrap">
+            <div className="flex justify-center md:gap-20 gap-10 flex-wrap">
                 <div className="flex flex-col items-center">
                     <div className="bg-black p-2 rounded-full border-[6px] border-gray-400">
                         <Image src={Shipping} alt="shipping" />

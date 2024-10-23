@@ -27,11 +27,12 @@ const HomeHeader = () => {
           <input className="bg-gray-200 outline-none" type="text" name="" id="search" placeholder="What are you looking for?" />
           <Image src={search} alt="search" />
         </div>
-        <div className="flex md:gap-6 gap-3">
-          <Image src={Heart} alt="heart" className="cursor-pointer" />
-          <Image src={Cart} alt="cart" className="cursor-pointer" />
+        <div className="flex items-center md:gap-6 gap-3">
+          <Link href={'../wishlist'} className=""><Image src={Heart} alt="heart" className="cursor-pointer" /></Link>
+          <Link href={'../cart'}><Image src={Cart} alt="cart" className="cursor-pointer" /></Link>
+          
           <div className="relative inline-block group">
-            <Image src={Account} alt="account" className="cursor-pointer bg-red-700 rounded-[50%] px-3 w-[40px] h-[40px] " />
+            <Link href={'../account'}><Image src={Account} alt="account" className="cursor-pointer bg-red-700 rounded-[50%] px-3 w-[40px] h-[40px] " /></Link>
             <AccountDropDown />
           </div>
         </div>

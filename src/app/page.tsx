@@ -6,6 +6,10 @@ import Footer from "./components/Footer";
 import FlashSale from "./components/FlashSale";
 import Categories from "./components/Categories";
 import BestSellingProduct from "./components/BestSellingProduct";
+import MusicSection from "./components/MusicSection";
+import Products from "./components/Products";
+import Featured from "./components/Featured";
+import PrivacyPolicy from "./components/PrivacyPolicy";
 
 export default function Home() {
   return (
@@ -27,6 +31,10 @@ export default function Home() {
          <BestSellingProduct />
          <hr className="border-[1px] text-gray-400" />
       </div>
+      <MusicSection />
+      <Products />
+      <Featured />
+      <PrivacyPolicy />
       <Footer />
     </>
   );

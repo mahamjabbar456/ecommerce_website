@@ -1,4 +1,12 @@
 import Image from "next/image"
+import LeftArrow from "../../../public/leftarrow.svg";
+import RightArrow from "../../../public/rightarrow2.svg";
+import Phone from '../../../public/phone.svg';
+import Computer from '../../../public/computer.svg';
+import SmartWatch from '../../../public/smartwatch.svg';
+import Camera from '../../../public/camera.svg';
+import Headphone from '../../../public/headphone.svg';
+import Gaming from '../../../public/gaming.svg';
 
 const Categories = () => {
   return (
@@ -19,36 +27,36 @@ const Categories = () => {
         {/* right div */}
         <div className="flex items-end ">
           <div className='bg-gray-200 m-2 p-2 rounded-[50%]'>
-          <Image src={require('../../../public/leftarrow.svg')} alt="left arrow" className="align-center" />
+          <Image src={LeftArrow} alt="left arrow" className="align-center" />
           </div>
           <div className='bg-gray-200 my-2 mr-[44px] p-2 rounded-[50%]'>
-          <Image src={require('../../../public/rightarrow2.svg')} alt="right arrow" />
+          <Image src={RightArrow} alt="right arrow" />
           </div>
         </div>
       </div>
       <div className="mb-12 flex flex-wrap justify-center gap-5">
          <div className="border-2 w-[140px] h-[110px] rounded-sm  flex flex-col items-center justify-center">
-            <Image src={require('../../../public/phone.svg')} alt="phone" className="w-10" />
+            <Image src={Phone} alt="phone" className="w-10" />
             <p className="text-sm pt-[10px]">Phones</p>
          </div>
          <div className="border-2 w-[140px] h-[110px] rounded-sm  flex flex-col items-center justify-center">
-            <Image src={require('../../../public/computer.svg')} alt="phone" className="w-10" />
+            <Image src={Computer} alt="phone" className="w-10" />
             <p className="text-sm pt-[10px]">Computers</p>
          </div>
          <div className="border-2 w-[140px] h-[110px] rounded-sm  flex flex-col items-center justify-center">
-            <Image src={require('../../../public/smartwatch.svg')} alt="phone" className="w-10" />
+            <Image src={SmartWatch} alt="phone" className="w-10" />
             <p className="text-sm pt-[10px]">Smart Watch</p>
          </div>
          <div className="border-2 w-[140px] h-[110px] rounded-sm  flex flex-col items-center justify-center">
-            <Image src={require('../../../public/camera.svg')} alt="phone" className="w-10" />
+            <Image src={Camera} alt="phone" className="w-10" />
             <p className="text-sm pt-[10px]">Camera</p>
          </div>
          <div className="border-2 w-[140px] h-[110px] rounded-sm  flex flex-col items-center justify-center">
-            <Image src={require('../../../public/headphone.svg')} alt="phone" className="w-10" />
+            <Image src={Headphone} alt="phone" className="w-10" />
             <p className="text-sm pt-[10px]">HeadPhones</p>
          </div>
          <div className="border-2 w-[140px] h-[110px] rounded-sm  flex flex-col items-center justify-center">
-            <Image src={require('../../../public/gaming.svg')} alt="phone" className="w-10" />
+            <Image src={Gaming} alt="phone" className="w-10" />
             <p className="text-sm pt-[10px]">Gaming</p>
          </div>
       </div>

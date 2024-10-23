@@ -2,6 +2,9 @@ import Link from "next/link";
 import search from '../../../public/search.svg';
 import Image from "next/image";
 import AccountDropDown from "./AccountDropDown";
+import Heart from '../../../public/heart.svg';
+import Cart from '../../../public/cart.svg';
+import Account from '../../../public/account.svg';
 
 const HomeHeader = () => {
   return (
@@ -25,10 +28,10 @@ const HomeHeader = () => {
           <Image src={search} alt="search" />
         </div>
         <div className="flex md:gap-6 gap-3">
-          <Image src={require('../../../public/heart.svg')} alt="heart" className="cursor-pointer" />
-          <Image src={require('../../../public/cart.svg')} alt="cart" className="cursor-pointer" />
+          <Image src={Heart} alt="heart" className="cursor-pointer" />
+          <Image src={Cart} alt="cart" className="cursor-pointer" />
           <div className="relative inline-block group">
-            <Image src={require('../../../public/account.svg')} alt="account" className="cursor-pointer bg-red-700 rounded-[50%] px-3 w-[40px] h-[40px] " />
+            <Image src={Account} alt="account" className="cursor-pointer bg-red-700 rounded-[50%] px-3 w-[40px] h-[40px] " />
             <AccountDropDown />
           </div>
         </div>

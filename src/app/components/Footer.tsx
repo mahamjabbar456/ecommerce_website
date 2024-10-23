@@ -3,6 +3,11 @@ import QrCode from '../../../public/qrcode.jpeg';
 import Image from "next/image";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
+import FaceBook from '../../../public/facebook.svg';
+import Twitter from '../../../public/twitter.svg';
+import Instagram from '../../../public/instagram.svg';
+import Linkedin from '../../../public/linkedin.svg';
+import Apple from '../../../public/appleandgoogle.png';
 
 const Footer = () => {
   return (
@@ -44,13 +49,13 @@ const Footer = () => {
         <p className="text-[10px] mb-[8px]">Save $3 with App New User Only</p>
         <div className="flex" style={{columnGap:'5px'}}>
           <Image src={QrCode} alt="QrCode Pic" width={150} height={150} className="w-[30%]" />
-          <Image src={require('../../../public/appleandgoogle.png')} alt="apple and google" width={150} height={150} className="w-[40%]" />
+          <Image src={Apple} alt="apple and google" width={150} height={150} className="w-[40%]" />
         </div>
         <div className="flex items-center content-center gap-4 mt-[15px]">
-          <Image src={require('../../../public/facebook.svg')} alt="facebook icon" className="w-4" />
-          <Image src={require('../../../public/twitter.svg')} alt="twitter icon" className="w-4" />
-          <Image src={require('../../../public/instagram.svg')} alt="instagram icon" className="w-4" />
-          <Image src={require('../../../public/linkedin.svg')} alt="linkedin icon" className="w-4" />
+          <Image src={FaceBook} alt="facebook icon" className="w-4" />
+          <Image src={Twitter} alt="twitter icon" className="w-4" />
+          <Image src={Instagram} alt="instagram icon" className="w-4" />
+          <Image src={Linkedin} alt="linkedin icon" className="w-4" />
         </div>
       </div>
       </div>

@@ -1,9 +1,18 @@
 import Image from "next/image"
+import LeftArrow from "../../../public/leftarrow.svg";
+import RightArrow from "../../../public/rightarrow2.svg";
+import Star from '../../../public/star.svg';
+import Heart from '../../../public/heart.svg';
+import Eye from '../../../public/eye.svg';
+import RemoteController from '../../../public/remotecontroller.png';
+import Keyboard from '../../../public/lighteningkeyboard.png';
+import LCD from '../../../public/lcd.png';
+import Chair from '../../../public/chair.png';
 
 const FlashSale = () => {
   return (
     <>
-      <div className="flex justify-between mb-8">
+      <div className="md:flex md:justify-between mb-8">
         {/* left div */}
         <div>
           {/* left div upper part */}
@@ -12,8 +21,8 @@ const FlashSale = () => {
           <p className="text-red-700 text-sm font-bold">Today's</p>
           </div>
           {/* left div lower part */}
-          <div className="mt-4 flex gap-20">
-            <h1 className="font-bold text-3xl tracking-wide">Flash Sales</h1>
+          <div className="mt-4 md:flex md:gap-20 inline">
+            <h1 className="font-bold text-3xl tracking-wide md:mb-0 mb-8">Flash Sales</h1>
             {/* left div lower part another div for hourse */}
             <div className="flex items-center gap-3">
             <div className="mt-[-20px]">
@@ -50,10 +59,10 @@ const FlashSale = () => {
         {/* right div */}
         <div className="lg:flex hidden lg:items-end">
           <div className='bg-gray-200 m-2 p-2 rounded-[50%]'>
-          <Image src={require('../../../public/leftarrow.svg')} alt="left arrow" className="align-center" />
+          <Image src={LeftArrow} alt="left arrow" className="align-center" />
           </div>
           <div className='bg-gray-200 my-2 mr-[44px] p-2 rounded-[50%]'>
-          <Image src={require('../../../public/rightarrow2.svg')} alt="right arrow" />
+          <Image src={RightArrow} alt="right arrow" />
           </div>
         </div>
       </div>
@@ -63,12 +72,12 @@ const FlashSale = () => {
         {/* Card Upper part */}
           <div className="bg-gray-200 h-[190px] w-[220px] relative rounded-sm">
             <div className="w-[48px]  bg-red-600 text-white text-center text-sm rounded-sm absolute top-2 left-2">-40%</div>
-            <Image src={require('../../../public/remotecontroller.png')} alt="remote controller" className="rotate-[345deg]" />
+            <Image src={RemoteController} alt="remote controller" className="rotate-[345deg]" />
             <div  className="absolute top-2 right-[6px] bg-white m-1 p-2 rounded-[50%]">
-              <Image src={require('../../../public/heart.svg')} alt="heart" className="w-4"  />
+              <Image src={Heart} alt="heart" className="w-4"  />
             </div>
             <div  className="absolute top-[46px] right-[6px] bg-white m-1 p-1 rounded-[50%]">
-              <Image src={require('../../../public/eye.svg')} alt="heart"  />
+              <Image src={Eye} alt="heart"  />
             </div>
           </div>
           {/* Card Lower part */}
@@ -80,11 +89,11 @@ const FlashSale = () => {
             </div>
             <div className="flex mt-3 gap-2">
               <div className="flex gap-1">
-              <Image src={require('../../../public/star.svg')} alt="rating" className="w-5" />
-              <Image src={require('../../../public/star.svg')} alt="rating" className="w-5" />
-              <Image src={require('../../../public/star.svg')} alt="rating" className="w-5" />
-              <Image src={require('../../../public/star.svg')} alt="rating" className="w-5" />
-              <Image src={require('../../../public/star.svg')} alt="rating" className="w-5" />
+              <Image src={Star} alt="rating" className="w-5" />
+              <Image src={Star} alt="rating" className="w-5" />
+              <Image src={Star} alt="rating" className="w-5" />
+              <Image src={Star} alt="rating" className="w-5" />
+              <Image src={Star} alt="rating" className="w-5" />
               </div>
               <p className="text-lg font-bold text-gray-500">(88)</p>
             </div>
@@ -94,12 +103,12 @@ const FlashSale = () => {
         {/* Card Upper part */}
           <div className="bg-gray-200 h-[190px] w-[220px] relative rounded-sm">
             <div className="w-[48px]  bg-red-600 text-white text-center text-sm rounded-sm absolute top-2 left-2">-35%</div>
-            <Image src={require('../../../public/lighteningkeyboard.png')} alt="Lightening KeyBoard" className="rotate-[345deg] absolute top-[8%] left-[8%] w-[80%]" />
+            <Image src={Keyboard} alt="Lightening KeyBoard" className="rotate-[345deg] absolute top-[8%] left-[8%] w-[80%]" />
             <div  className="absolute top-2 right-[6px] bg-white m-1 p-2 rounded-[50%]">
-              <Image src={require('../../../public/heart.svg')} alt="heart" className="w-4"  />
+              <Image src={Heart} alt="heart" className="w-4"  />
             </div>
             <div  className="absolute top-[46px] right-[6px] bg-white m-1 p-1 rounded-[50%]">
-              <Image src={require('../../../public/eye.svg')} alt="heart"  />
+              <Image src={Eye} alt="heart"  />
             </div>
           </div>
           {/* Card Lower part */}
@@ -111,11 +120,11 @@ const FlashSale = () => {
             </div>
             <div className="flex mt-3 gap-2">
               <div className="flex gap-1">
-              <Image src={require('../../../public/star.svg')} alt="rating" className="w-5" />
-              <Image src={require('../../../public/star.svg')} alt="rating" className="w-5" />
-              <Image src={require('../../../public/star.svg')} alt="rating" className="w-5" />
-              <Image src={require('../../../public/star.svg')} alt="rating" className="w-5" />
-              <Image src={require('../../../public/star.svg')} alt="rating" className="w-5 text-gray-500" />
+              <Image src={Star} alt="rating" className="w-5" />
+              <Image src={Star} alt="rating" className="w-5" />
+              <Image src={Star} alt="rating" className="w-5" />
+              <Image src={Star} alt="rating" className="w-5" />
+              <Image src={Star} alt="rating" className="w-5 text-gray-500" />
               </div>
               <p className="text-lg font-bold text-gray-500">(75)</p>
             </div>
@@ -125,12 +134,12 @@ const FlashSale = () => {
         {/* Card Upper part */}
           <div className="bg-gray-200 h-[190px] w-[220px] relative rounded-sm">
             <div className="w-[48px]  bg-red-600 text-white text-center text-sm rounded-sm absolute top-2 left-2">-30%</div>
-            <Image src={require('../../../public/lcd.png')} alt="LCD" className="absolute top-[25%] right-[10%] w-[80%] " />
+            <Image src={LCD} alt="LCD" className="absolute top-[25%] right-[10%] w-[80%] " />
             <div  className="absolute top-2 right-[6px] bg-white m-1 p-2 rounded-[50%]">
-              <Image src={require('../../../public/heart.svg')} alt="heart" className="w-4"  />
+              <Image src={Heart} alt="heart" className="w-4"  />
             </div>
             <div  className="absolute top-[46px] right-[6px] bg-white m-1 p-1 rounded-[50%]">
-              <Image src={require('../../../public/eye.svg')} alt="heart"  />
+              <Image src={Eye} alt="heart"  />
             </div>
           </div>
           {/* Card Lower part */}
@@ -142,11 +151,11 @@ const FlashSale = () => {
             </div>
             <div className="flex mt-3 gap-2">
               <div className="flex gap-1">
-              <Image src={require('../../../public/star.svg')} alt="rating" className="w-5" />
-              <Image src={require('../../../public/star.svg')} alt="rating" className="w-5" />
-              <Image src={require('../../../public/star.svg')} alt="rating" className="w-5" />
-              <Image src={require('../../../public/star.svg')} alt="rating" className="w-5" />
-              <Image src={require('../../../public/star.svg')} alt="rating" className="w-5" />
+              <Image src={Star} alt="rating" className="w-5" />
+              <Image src={Star} alt="rating" className="w-5" />
+              <Image src={Star} alt="rating" className="w-5" />
+              <Image src={Star} alt="rating" className="w-5" />
+              <Image src={Star} alt="rating" className="w-5" />
               </div>
               <p className="text-lg font-bold text-gray-500">(99)</p>
             </div>
@@ -156,12 +165,12 @@ const FlashSale = () => {
         {/* Card Upper part */}
           <div className="bg-gray-200 h-[190px] w-[220px] relative rounded-sm">
             <div className="w-[48px]  bg-red-600 text-white text-center text-sm rounded-sm absolute top-2 left-2">-25%</div>
-            <Image src={require('../../../public/chair.png')} alt="chair" className="rotate-[345deg] absolute top-[10%] left-[10%] w-[80%]" />
+            <Image src={Chair} alt="chair" className="rotate-[345deg] absolute top-[10%] left-[10%] w-[80%]" />
             <div  className="absolute top-2 right-[6px] bg-white m-1 p-2 rounded-[50%]">
-              <Image src={require('../../../public/heart.svg')} alt="heart" className="w-4"  />
+              <Image src={Heart} alt="heart" className="w-4"  />
             </div>
             <div  className="absolute top-[46px] right-[6px] bg-white m-1 p-1 rounded-[50%]">
-              <Image src={require('../../../public/eye.svg')} alt="heart"  />
+              <Image src={Eye} alt="eye"  />
             </div>
           </div>
           {/* Card Lower part */}
@@ -173,11 +182,11 @@ const FlashSale = () => {
             </div>
             <div className="flex mt-3 gap-2">
               <div className="flex gap-1">
-              <Image src={require('../../../public/star.svg')} alt="rating" className="w-5" />
-              <Image src={require('../../../public/star.svg')} alt="rating" className="w-5" />
-              <Image src={require('../../../public/star.svg')} alt="rating" className="w-5" />
-              <Image src={require('../../../public/star.svg')} alt="rating" className="w-5" />
-              <Image src={require('../../../public/star.svg')} alt="rating" className="w-5" />
+              <Image src={Star} alt="rating" className="w-5" />
+              <Image src={Star} alt="rating" className="w-5" />
+              <Image src={Star} alt="rating" className="w-5" />
+              <Image src={Star} alt="rating" className="w-5" />
+              <Image src={Star} alt="rating" className="w-5" />
               </div>
               <p className="text-lg font-bold text-gray-500">(99)</p>
             </div>

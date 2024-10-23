@@ -11,12 +11,10 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-      },
+      },dropShadow: {
+          '3xl': '11px 10px 50px rgb(255,255,255)',
+        }
     },
-    // screens:{
-    //   'sm': '425px',
-    //   'md': '426px'
-    // },
   },
   plugins: [],
 };

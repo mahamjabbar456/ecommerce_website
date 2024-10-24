@@ -4,7 +4,7 @@ const CartTotal = () => {
   return (
     <div className="lg:flex lg:justify-between mb-[40px] lg:mb-[70px]">
       <div className="flex justify-between lg:inline ">
-        <button className="border-2 py-3 pr-[45px] md:pr-[150px] pl-3 rounded-md lg:mr-2">Coupon Code</button>
+        <button className="border-2 py-3 pr-[35px] md:pr-[150px] pl-3 rounded-md lg:mr-2">Coupon Code</button>
         <button className="bg-red-600 px-3 text-white rounded-md py-3">Apply Coupon</button>
       </div>
       <div className="border-2 border-black p-5 mt-6 lg:mt-0 rounded-md lg:w-[35%]">

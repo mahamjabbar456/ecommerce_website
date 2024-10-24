@@ -13,7 +13,7 @@ const config: Config = {
         foreground: "var(--foreground)",
       },dropShadow: {
           '3xl': '11px 10px 50px rgb(255,255,255)',
-        }
+      },
     },
   },
   plugins: [],

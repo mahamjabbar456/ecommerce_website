@@ -1,9 +1,13 @@
-import ContactSection from "../components/ContactSection"
-import Footer from "../components/Footer"
-import HomeHeader from "../components/HomeHeader"
-import TopHeader from "../components/TopHeader"
+'use client';
 
-const Contact = () => {
+import ErrorPage from "../components/404page";
+import Footer from "../components/Footer";
+import HomeHeader from "../components/HomeHeader";
+import TopHeader from "../components/TopHeader";
+
+
+
+const error = () => {
   return (
     <>
       <TopHeader />
@@ -13,13 +17,13 @@ const Contact = () => {
       <div className="pt-[50px] w-[75%] mx-auto">
         <div className="flex gap-2 md:pb-[50px] pb-[30px]">
           <p className="text-gray-500">Home   /</p>
-          <p className="text-black">Contact</p>
+          <p className="text-black">404 error</p>
         </div>
-        <ContactSection />
       </div>
+      <ErrorPage />
       <Footer />
     </>
   )
 }
 
-export default Contact
+export default error

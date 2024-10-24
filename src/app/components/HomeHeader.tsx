@@ -23,7 +23,7 @@ const HomeHeader = () => {
       </div>
       </div>
       <div className="flex md:gap-8 gap-4 justify-center md:justify-center md:mt-3 lg:mt-0">
-        <div className=" text-black flex items-center bg-gray-200 text-sm py-2 px-4 md:gap-6 gap-3 rounded-lg ">
+        <div className=" text-black flex items-center bg-gray-200 text-sm py-2 px-4 md:gap-6 gap-2 rounded-lg ">
           <input className="bg-gray-200 outline-none" type="text" name="" id="search" placeholder="What are you looking for?" />
           <Image src={search} alt="search" />
         </div>
